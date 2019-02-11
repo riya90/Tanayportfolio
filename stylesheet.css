@@ -16,3 +16,27 @@ font-size: 17px;
 background-color:#ddd;
 color: black;
 }
+ h3 {
+      -webkit-animation:colorchange 5s infinite alternate;
+}
+
+@-webkit-keyframes colorchange{
+  0% {
+    color: FFD400;
+  }
+  20% {
+    color: 00FF63;
+  }
+   40% {
+     color: blue;
+  }
+  60% {
+    color: 0040FF;
+  }
+  80% {
+    color: purple;
+  }
+  100% {
+    color: green:
+  }
+}
