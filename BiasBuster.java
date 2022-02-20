@@ -69,7 +69,7 @@ public class BiasBuster {
     }
 
     public static void main(String[] args) {
-        BiasBuster thing = new BiasBuster("Chiku U", "Chiku U is a dog");
+        BiasBuster thing = new BiasBuster("Avani Kinikar", "Avani Kinikar so and so high school, she had so and so job.");
         try {
             String toPrint = thing.replaceName();
             System.out.print(toPrint);
