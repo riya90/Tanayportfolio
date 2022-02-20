@@ -1,4 +1,4 @@
-package biasbuster;
+//package biasbuster;
 
 import java.util.*;
 import java.util.Scanner;
@@ -14,9 +14,6 @@ public class BiasBuster
 {
     String name;
     String resume;
-
-
-
 
 
     public BiasBuster(String inputName, String inputResume)
@@ -48,8 +45,10 @@ public class BiasBuster
 
 
 
-    public String replaceName() throws FileNotFoundException{
-        if(resume.contains(name)){
+    public String replaceName() throws FileNotFoundException
+    {
+        if(resume.contains(name))
+        {
             int firstIdx = resume.indexOf(name);
             int lastIdx = firstIdx + name.length();
             String newName = newName();
@@ -82,7 +81,7 @@ public class BiasBuster
 
     public static void main( String[] args )
     {
-        BiasBuster thing = new BiasBuster("Shilpa Tee", "Shilpa Tee is awesome.");
+        BiasBuster thing = new BiasBuster("Chiku U", "Chiku U is a dog");
         try
         {
             String toPrint =   thing.replaceName();
