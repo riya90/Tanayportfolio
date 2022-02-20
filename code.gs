@@ -7,7 +7,7 @@ function doGet() {
 function uploadFiles(data)
 {
  var file = data.myFile;
- var folder = DriveApp.getFolderById('1IxMiswEfi67ovoBf8ZH1RV7qVPx1Ks6l');
+ var folder = DriveApp.getFolderById('1Ac77-Y2mCPxd4mgTW0IWpqX3lepl0pRE');
  var createFile = folder.createFile(file);
  return createFile.getUrl();
 }
