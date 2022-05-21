@@ -17,8 +17,7 @@
       .jumbotron {
       margin-top: 20px;
       background-size: cover;
-      color: black;
-      background-image: url(https://github.com/tubale/Tanayportfolio/blob/master/wallpapperr.jpg?raw=true)  
+      color: navy;  
     }
     
   </style>
@@ -74,13 +73,34 @@
         margin-top: 0;
       }
     }
+    *{
+    margin: 0;
+    padding: 0;
+  }
+
+  #parent {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  #left {
+    border: 1px solid lightgray;
+    background-color: red;
+    width: 40%;
+  }
+
+  #right {
+    border: 1px solid lightgray;
+    background-color: green;
+    width: 40%;
+  }
   </style>
         
       
 <body>
      <div class="navbar">
       <a href="https://tubale.github.io/Tanayportfolio/home.html"> Home </a>
-      <a href="https://tubale.github.io/Tanayportfolio/aboutus.html"> Our Product </a> 
+      <a href="https://tubale.github.io/Tanayportfolio/aboutus.html"> About us </a> 
     </div>
     
     <div class="container">
@@ -92,19 +112,15 @@
   
   <div class="container">
       <div class="row">
-        <figure class="text-center">
-           <blockquote class="blockquote">
-              <p> Without realizing, people may have a bias on certain people based on their name, gender, etc. People will 
-                be more likely choose someone with the same race or similar sounding name as them, so it reduces diversity in 
-                companies. To eliminate we created the Bias Buster. The Bias Buster will remove all unconcious bias while 
-                reading a resume and making a decision whether to hire someone to a company or not.
-                
-                The Bias Buster is a program that will take in a resume (you'll need to upload it) and remove all potential areas
-                of unconcious biases (name, gender, race, etc.), so that only the experiences, skills, and personality remains.
-                As for name, it will replace their name with a gender neutral name, so there is no bias of gender. Companies 
-                can then use this information to make a decision. 
-              </p>
-          </blockquote>
+        <div id="parent">
+          <div id="left">
+            <h3> Nishchay Jaiswal</h3>
+          </div>
+          <div id="right">
+            lorem ipsum dolor sit emet
+          </div>
+        </div>
+
       </div>
      </div>   
   
