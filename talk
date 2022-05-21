@@ -1,0 +1,107 @@
+   <!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    
+    <title> Women Empowerment </title>
+    <link rel="shortcut icon" href="https://github.com/tubale/Tanayportfolio/blob/master/7A415627-1AF7-4904-AC43-B14ECB61399D.JPG?raw=true"/>
+    <link rel="stylesheet" href="stylesheet.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  </head>
+      
+  <style type="text/css">
+      .jumbotron {
+      margin-top: 20px;
+      background-size: cover;
+      color: navy;  
+    }
+    
+  </style>
+  
+  
+<style>
+    * {
+      box-sizing: border-box;
+    }
+    
+    input[type=text], select, textarea {
+      width: 100%;
+      padding: 12px;
+      border: 1px solid #ccc;
+      margin-top: 6px;
+      margin-bottom: 16px;
+      resize: vertical;
+    }
+    
+    input[type=submit] {
+      background-color: #4CAF50;
+      color:reblackd ;
+      padding: 12px 20px;
+      border: none;
+      cursor: pointer;
+    }
+    
+    input[type=submit]:hover {
+      background-color: #45a049;
+    }
+    
+    .container {
+      border-radius: 5px;
+      background-color: #bac5d9;
+      padding: 10px;
+    }
+    .column {
+      float: left;
+      width: 50%;
+      margin-top: 6px;
+      padding: 20px;
+    }
+    
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    
+    @media screen and  (max-width: 600px) {
+      .column, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+      }
+    }
+    *{
+    margin: 0;
+    padding: 0;
+  }
+  </style>
+        
+      
+<body>
+     <div class="navbar">
+      <a href="https://tubale.github.io/Tanayportfolio/home.html"> Home </a>
+      <a href="https://tubale.github.io/Tanayportfolio/aboutus.html"> Meet the Team </a>
+      <a href="https://tubale.github.io/Tanayportfolio/talk.html"> Talk About Your Problems </a> 
+    </div>
+    
+    <div class="container">
+      <div class="jumbotron">
+        <h1> Bias Buster </h1>
+      </div>
+    </div>  
+   
+  
+  
+  
+   <div id="google_translate_element"  style="float:right; position:relative; left: -50%;"></div>
+    <script type="text/javascript">
+      function googleTranslateElementInit() {
+        new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+      }
+    </script>
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+</body>
+</html>
