@@ -156,7 +156,7 @@ document.getElementById('chat-box').style.right='8%'
 function sendmsg(){
 var msg = document.getElementById('whats-in').value;
 var relmsg = msg.replace(/ /g,"%20");
-document.getElementById('whats-in').value = msg + relmsg;
+document.getElementById('chat-msg').value = msg + "\\n" + relmsg;
 }
 </script>
   
