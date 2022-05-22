@@ -3,8 +3,8 @@ const msgerInput = get(".msger-input");
 const msgerChat = get(".msger-chat");
 const BOT_IMG = "bot.png";
 const PERSON_IMG = "user.png";
-const BOT_NAME = "BOT";
-const PERSON_NAME = "Coderider";
+const BOT_NAME = "Apollo";
+const PERSON_NAME = "Anonymous User";
 const prompts = [
   ["hi", "hey", "hello", "good morning", "good afternoon"],
   ["how are you", "how is life", "how are things"],
