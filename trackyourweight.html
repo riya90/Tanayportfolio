@@ -7,10 +7,21 @@
     <link rel="shortcut icon" href="https://github.com/tubale/Tanayportfolio/blob/master/StudentSupportServicesLogo.jpeg?raw=true"/>
     <link rel="stylesheet" href="stylesheet.css">
     <meta charset="utf-8">
+    <meta content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="http://code.jquery.co/jquery-latest.min.js"></script>
+    
+    <script>
+      $(function() {
+        $("#visible").click(function() {
+          $('#invisible').toggleClass("show");
+          
+        });
+      });
+    </script>
   </head>
       
   <style type="text/css">
@@ -46,6 +57,9 @@ color: black;
   margin-left: auto;
   margin-right: auto;
 }
+    
+    .hide(display:none;}
+    .show{display:block;}
     </style>
     
   </style>
@@ -67,7 +81,8 @@ color: black;
   <input type="text" id="fname" name="fname"><br><br>
   <label for="lname">Goal</label>
   <input type="text" id="lname" name="lname"><br><br>
-  <button onclick="document.getElementById('myInput').value = ''">Enter</button>
+  <button onclick="document.getElementById('myInput').value = ''" id="visible">Enter</button>
+  <p id="invisible" class="hide"> You have to eat 1000 calories per day. You got this.</p>
 </form>
         
 
